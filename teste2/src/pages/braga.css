@@ -1,0 +1,112 @@
+.titulo{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: #F06543;
+}
+
+
+.container {
+   /* padding: 20px 0; */
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background-color:#E0DFD5;
+   height: 600px;
+}
+
+.texts {
+    width: 35%;
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+.lugar {
+    position: absolute;
+    left: 50px;
+    bottom: 0px;
+    height: 500px;
+}
+
+.carne {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    height: 500px;
+}
+
+.titulo .botoes {
+
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center ;
+    flex-direction: row;
+    gap: 170px;
+}
+
+.container img {
+   
+    width: 300px;
+    height: 300px;
+   
+}
+
+.contato {
+    background-color: #313638;
+    height: 300px;
+ 
+}
+
+.contato .ifood {
+    flex-direction: column;
+    position: absolute;
+    left: 0%;
+    top: 100%;
+}
+
+.logos {
+
+    position: absolute;
+    left: 0%;
+    top: 85%;
+    
+
+}
+
+.face {
+    position: absolute;
+    left: 0%;
+    top: 105%;
+    height: 80px;
+}
+
+.insta {
+    position: absolute;
+    left: 7%;
+    top: 105%;
+    height: 80px;
+}
+
+.linked {
+    position: absolute;
+    left: 15%;
+    top: 105%;
+    height: 80px;
+}
+
+.contato h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    position: absolute;
+    left: 33%;
+    top: 90%;
+}
+

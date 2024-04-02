@@ -1,0 +1,57 @@
+.entradas {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 20px;
+    background-color: #774E24;
+}
+h1 {
+    text-align: center;
+}
+.titulo h2{
+    text-align: center;
+}
+
+.carnes {
+
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.acompanhamentos h1 {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+.bedidas h1 {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+}
+
+.baixo {
+    display: flex;
+    justify-content: center;
+    gap: 320px;
+}
+
+.titulo > h1 {
+    font-family: 'tittle';
+    font-size: 50px;
+
+}
+
+.titulo > h2 {
+    font-family: 'tittle';
+    font-size: 35px;
+    
+}
+
+body {
+    background-color: #774E24 ;
+}
+
+
+
